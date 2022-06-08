@@ -1,0 +1,32 @@
+
+0.Design the layout of the game
+1. Create a frame
+2. set up button to frame
+3. Initialize method <--putting stuff into the frame
+    - set frame size
+    - set color
+    - customize layout
+4. set action listener
+    - add all of the button to action listener
+5. Add Controller - create the class
+    - set Model to the game Model
+    - setRequest request to dealCard for player
+6. Set layout of the game
+    - add player's panel
+    - add dealer's panel
+    - set player's panel to Center
+    - set dealer's panel to north
+
+7. set action listener
+    - Adapter will need to implement ActionListener
+
+Don't need playHit- hit = deal card to player + calc total + check winner
+Show deal card
+
+press hit-> show more card + check winner
+
+press stand-> show dealer's card + close hit + close stand + check winner
+
+show winner at bottom + lock all scree
+add ending screen or reset only
+
